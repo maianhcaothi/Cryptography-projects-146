@@ -24,7 +24,7 @@ A simple, secure, and user-friendly tool for encrypting and decrypting files usi
   - Decrypts `.aes` file back to original (or adds `.decrypted` if needed).
   - Optionally deletes the original file for enhanced security.
 
-- **🖥Intuitive GUI**
+- **Intuitive GUI**
   - Built with Python’s `tkinter`.
   - No command-line interaction required.
 
@@ -38,11 +38,11 @@ A simple, secure, and user-friendly tool for encrypting and decrypting files usi
 ### Installation
 
 ```bash
-pip install pycryptodomex
+pip install pycryptodomex # Dowload library
 
+###
 Cryptography-projects-146/
 ├── gui_encryption.py             # The GUI application.
 ├── aes_file_encryption.py  # Core encryption/decryption logic.
 └── Key/                    # Folder to store encryption keys (created automatically).
-cd path/to/Cryptography-projects-146
-python main_gui.py
+
